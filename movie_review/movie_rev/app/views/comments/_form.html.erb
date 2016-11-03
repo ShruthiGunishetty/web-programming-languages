@@ -1,0 +1,14 @@
+<%= form_for([@movie, @movie.comments.build]) do |f| %>
+  <p>
+    <%= f.label :reviewer %><br>
+    <%= f.text_field :reviewer %>
+  </p>
+  <p>
+    <%= f.label :comment %><br>
+    <%= f.text_area :comment, required:true %>
+	
+  </p>
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>

@@ -1,0 +1,40 @@
+table
+{
+	border-collapse: collapse;
+
+
+	BORDER: 1px solid blue;
+color:red;
+background-color: #e6ffff;
+	
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+color:#00004d;
+}
+link {
+    color: red;
+}
+
+body {
+   
+
+background-image: url("d.jpg");
+	
+	font-family: red-serif;
+	color: white;
+	font-style: italic;
+}
+tr {
+    color: #000000;
+}
+h1{
+	text-align:center;
+	color:#FFFFFF;
+}
+a
+{
+
+color:#ff1a1a;
+}

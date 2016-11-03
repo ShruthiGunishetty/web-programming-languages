@@ -1,0 +1,30 @@
+<p>
+  <strong>movie_title:</strong>
+  <%= @movie.title %>
+</p>
+ 
+<p>
+  <strong>year:</strong>
+  <%= @movie.year %>
+</p>
+<p>
+  <strong>IMDB_rating:</strong>
+  <%= @movie.rating %>
+</p>
+<p>
+  <strong>description:</strong>
+  <%= @movie.description %>
+</p>
+<p>
+<strong>image:</strong>
+<img src="/img/<%=@movie.id%>.jpg" alt="/img/<%=@movie.id%>.jpg" height="100" width="100">
+</p>
+<h2>Comments</h2>
+<%= render @movie.comments %>
+ 
+<h2>Add a comment:</h2>
+<%= render 'comments/form' %>
+
+<%= link_to 'Edit', edit_movie_path(@movie) %> 
+<%= link_to 'Back', movies_path %>
+ 
