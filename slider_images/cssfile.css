@@ -1,0 +1,86 @@
+.container{
+  max-width: 720px;
+  background-color: #ebebeb;
+  top:20px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  border:2px solid #666666; 
+    -moz-border-radius:6px; 
+    -webkit-border-radius:6px;  
+    padding:13px; 
+    clear:both; 
+    overflow:hidden; 
+}
+.imgContainer{
+   
+	float:left;
+}
+.img123{
+float:left;
+margin-right:5px;
+}
+.caption_class{
+position: absolute;
+left:15px;
+text-align: center;
+	bottom: 15px;
+	background: rgba(0,0,0,0.3);
+	color: #33cc33;
+	width: 20%;
+	font-size: 2rem;
+font-family: Impact, Charcoal, sans-serif;
+
+}
+
+#buttons_id{
+
+	position: absolute;
+left:575px;
+font-weight:bold;
+text-align: center;
+	bottom: 170px;
+margin-left: 100px;
+}
+.btn_class{
+background-color:#ffcc00;
+}
+.container div {
+  background-color: black;
+  width: 100%;
+  display: inline-block;
+  display: none;
+}
+/*.container img {
+  width: 100%;
+  height: auto;
+}*/
+
+.image_class{
+height:500px;
+width:500px;
+}
+
+.next_class{
+background:url(images/right_arrow.png); 
+background-color: Transparent;
+margin-top:50px;
+
+    width:67px;
+    height: 50px; 
+    position:absolute; 
+    top:200px; 
+    left:669px;
+}
+
+.prev_class{
+background:url(images/left_arrow.png); 
+background-color: Transparent;
+margin-top:50px;
+    width:67px;
+    height: 50px; 
+    position:absolute; 
+    top:200px; 
+    left:10px;
+}
+
